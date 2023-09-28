@@ -1,0 +1,125 @@
+/*basic reset*/
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: $font-stack;
+}
+
+*:focus {
+  outline: none;
+}
+
+/*GLOBAL PAGE STYLES*/
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: $font-stack;
+  font-weight: 400;
+  line-height: 20px;
+  width: 100%;
+  color: $neutral-800;
+  scroll-behavior: smooth;
+}
+
+html {
+  font-size: $base-size;
+}
+
+body {
+  font-size: 1.4rem;
+  line-height: 1.43;
+}
+
+#__nuxt,
+#wrapper {
+  min-height: 100%;
+  min-width: 100%;
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+#footer-control {
+  -webkit-box-flex: 1;
+  -ms-flex: 1 0 auto;
+  flex: 1 0 auto;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  > div {
+    width: 100%;
+    flex: 1;
+  }
+}
+
+a {
+  text-decoration: none;
+  -webkit-transition: all 0.4s linear;
+  transition: all 0.4s linear;
+  font-size: 1.4rem;
+  color: $neutral-800;
+  font-weight: 500;
+  user-select: none;
+  display: inline-block;
+  outline: none !important;
+}
+
+a:active,
+a:focus {
+  text-decoration: none;
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+a:hover {
+  color: $neutral-800;
+  text-decoration: none;
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+li {
+  list-style: none;
+}
+
+button:focus {
+  outline: none;
+}
+
+dl,
+ol,
+ul {
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+[type="button"],
+[type="reset"],
+[type="submit"],
+button {
+  appearance: button;
+  -webkit-appearance: button;
+}

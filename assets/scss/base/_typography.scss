@@ -1,0 +1,145 @@
+@font-face {
+  font-family: "Metropolis";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src:
+    url("/fonts/Metropolis-Regular.ttf") format("truetype"),
+    url("/fonts/Metropolis-Regular.woff") format("woff"),
+    url("/fonts/Metropolis-Regular.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Metropolis";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src:
+    url("/fonts/Metropolis-Medium.ttf") format("truetype"),
+    url("/fonts/Metropolis-Medium.woff") format("woff"),
+    url("/fonts/Metropolis-Medium.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Metropolis";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src:
+    url("/fonts/Metropolis-SemiBold.ttf") format("truetype"),
+    url("/fonts/Metropolis-SemiBold.woff") format("woff"),
+    url("/fonts/Metropolis-SemiBold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Integral CF";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src:
+    url("/fonts/integral-cf-medium.ttf") format("truetype"),
+    url("/fonts/integral-cf-medium.woff") format("woff"),
+    url("/fonts/integral-cf-medium.woff2") format("woff2");
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: $neutral-950;
+  font-weight: 600;
+}
+
+h1 {
+  font-size: 48px;
+  line-height: 1.25;
+}
+
+h2 {
+  font-size: 40px;
+  line-height: 1.2;
+}
+
+h3 {
+  font-size: 36px;
+  line-height: 1.22;
+}
+
+h4 {
+  font-size: 28px;
+  line-height: 1.29;
+}
+
+h5 {
+  font-size: 24px;
+  line-height: 1.33;
+}
+
+h6 {
+  font-size: 20px;
+  line-height: 1.6;
+}
+
+.text-xl {
+  font-size: 1.8rem;
+  line-height: 1.5;
+}
+
+.text-l {
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+
+.text-base {
+  font-size: 1.4rem;
+  line-height: 1.43;
+}
+
+.text-sm {
+  font-size: 1.3rem;
+  line-height: 1.38;
+}
+
+.text-xs {
+  font-size: 1.2rem;
+  line-height: 1.33;
+}
+
+p {
+  font-family: $font-stack;
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 1.43;
+  color: inherit;
+}
+
+.bold-text {
+  font-weight: 700 !important;
+}
+
+.semibold-text {
+  font-weight: 600 !important;
+}
+.medium-text {
+  font-weight: 500 !important;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+.text-capitalize {
+  text-transform: capitalize;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-underline {
+  text-decoration: underline;
+}
+
+.header-text {
+  font-weight: 500;
+  font-family: $header-stack !important;
+}

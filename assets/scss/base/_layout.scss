@@ -1,0 +1,122 @@
+.grid {
+  box-sizing: border-box;
+  width: 100%;
+  display: flex;
+  flex: 0 1 auto;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.fixed-container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.flex {
+  display: flex;
+  &.__row {
+    flex-direction: row;
+  }
+  &.__row-reverse {
+    flex-direction: row-reverse;
+  }
+  &.__column {
+    flex-direction: column;
+  }
+  &.__column-reverse {
+    flex-direction: column-reverse;
+  }
+  &.__justify-between {
+    justify-content: space-between;
+  }
+  &.__justify-end {
+    justify-content: flex-end;
+  }
+  &.__justify-center {
+    justify-content: center;
+  }
+  &.__align-center {
+    align-items: center;
+  }
+  &.__nowrap {
+    flex-wrap: nowrap;
+  }
+  &.__wrap {
+    flex-wrap: wrap !important;
+  }
+  > .form-row {
+    width: 45%;
+    align-self: baseline;
+  }
+}
+
+.no-border {
+  border: 0;
+}
+
+.mx-auto {
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.ml-auto {
+  margin-left: auto !important;
+  margin-right: 0 !important;
+}
+
+.mr-auto {
+  margin-right: auto !important;
+  margin-left: 0 !important;
+}
+
+.col-10 {
+  width: 10%;
+}
+
+.col-20 {
+  width: 20%;
+}
+
+.col-25 {
+  width: 25%;
+}
+
+.col-30 {
+  width: 30%;
+}
+
+.col-40 {
+  width: 40%;
+}
+
+.col-45 {
+  width: 45%;
+}
+
+.col-50 {
+  width: 50%;
+}
+
+.col-60 {
+  width: 60%;
+}
+
+.col-70 {
+  width: 70%;
+}
+
+.col-80 {
+  width: 80%;
+}
+
+.col-90 {
+  width: 90%;
+}
+
+.col-100 {
+  width: 100%;
+}
+
+.hidden {
+  display: none;
+}
