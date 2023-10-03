@@ -10,7 +10,7 @@ export default defineNuxtConfig({
       meta: [
         {
           name: "description",
-          content: "Product Designer and Engineer from Nigeria",
+          content: "Product Design Engineer from Nigeria",
         },
       ],
     },
