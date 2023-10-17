@@ -8,7 +8,7 @@
     <section class="pg-content">
       <div class="item-content">
         <p class="content">I’m Nosa, a product designer, and developer. <br>
-          I design and building web and mobile applications that solves problems and help people achieve their goals. I am
+          I design and build web and mobile applications that solves problems and help people achieve their goals. I am
           passionate about creating, and simplifying complex, digital experiences that foster consistent user interactions
           across a product. </p>
         <div class="item-status">
